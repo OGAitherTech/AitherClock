@@ -2,17 +2,20 @@
 
 A clean, responsive clock app built for the web and iPhone.
 
-## Version 4
+## Version 5
 
-Aither Clock v4 adds a more customizable World Clock and a polished appearance system.
+Aither Clock v5 adds a faster, more useful World Clock experience while keeping the customizable appearance system.
 
 ## Features
 
 - Live digital clock with 12-hour and 24-hour formats
 - Live analog clock with all 12 hour markers
-- World clock section with live major-city times
-- Add preset world cities to your personal World Clock
-- Remove cities from the World Clock
+- World clocks with saved custom cities
+- Search/filter world clocks instantly
+- Switch world clocks between 12-hour and 24-hour time
+- Copy a city's current time with one tap
+- City timezone and UTC offset display
+- Add and remove preset world cities
 - Stopwatch with laps
 - Countdown timer with progress bar
 - Saved alarms
@@ -24,7 +27,6 @@ Aither Clock v4 adds a more customizable World Clock and a polished appearance s
 - System, monospace, and rounded font styles
 - Analog + digital, digital-only, and analog-only layouts
 - Fullscreen mode
-- Reset appearance button
 - Appearance preferences, World Clock cities, and alarms saved locally
 - Responsive iPhone/mobile layout
 - No account or external API required
@@ -37,7 +39,7 @@ Open `index.html` in a browser, or publish the repository with GitHub Pages.
 
 - `index.html` — app structure and controls
 - `style.css` — responsive UI, themes, backgrounds, cards, and typography
-- `app.js` — clock, World Clock, stopwatch, timer, alarms, and preferences
+- `app.js` — clock, World Clock, stopwatch, timer, alarms, search, copy, and preferences
 
 ## Project
 
