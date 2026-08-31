@@ -1,18 +1,22 @@
-# Aither Clock
+# Aither Clock v2
 
-A clean, responsive clock app built for the web and iPhone.
+A modern, responsive clock app built for the web and iPhone.
 
-## Features
+## v2 features
 
 - Live digital clock with 12-hour and 24-hour formats
-- Live analog clock
+- Smooth live analog clock with all 12 hour markers
 - Date display
 - Light and dark themes
+- Fullscreen mode
+- Digital-only clock mode
+- World clocks for New York, Los Angeles, London, Paris, Tokyo and Sydney
 - Stopwatch with laps
-- Countdown timer
-- Responsive mobile layout
-- Works locally in the browser with no account or external API
-- iPhone-friendly viewport and safe-area support
+- Countdown timer with progress bar
+- On-device alarms with labels and on/off controls
+- Settings and alarms saved locally with `localStorage`
+- Responsive iPhone-friendly design and safe-area support
+- No account, backend, or external API required
 
 ## Run
 
@@ -20,9 +24,9 @@ Open `index.html` in a browser, or publish the repository with GitHub Pages.
 
 ## Files
 
-- `index.html` — app structure
-- `style.css` — responsive UI and themes
-- `app.js` — clock, stopwatch, timer, and settings logic
+- `index.html` — app structure and controls
+- `style.css` — responsive UI, themes, cards and clock styling
+- `app.js` — clock, world clocks, stopwatch, timer, alarms and persistence
 
 ## Project
 
